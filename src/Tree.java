@@ -10,6 +10,4 @@ public interface Tree<E> {
     int getSize();
 
     boolean find(TreeNode<E> treeNode, E e);
-
-    boolean remove(TreeNode<E> treeNode, E e);
 }
